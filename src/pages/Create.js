@@ -14,23 +14,6 @@ import { makeStyles } from '@mui/styles';
 
 
 const useStyles = makeStyles({
-  btn1: {
-
-    height: 60,
-    '&:hover': {
-      height: 100,
-    }
-
-  },
-
-  typo: {
-    color: 'orange',
-  },
-
-  title: {
-    textDecoration: 'underline',
-    marginBottom: 20
-  }
 
 });
 
@@ -46,21 +29,20 @@ export default function Create() {
         variant="h6"
         component="h2"
         gutterBottom
-        // color="textSecondary"
-        className={classes.typo}
+        color="textSecondary"
       >
         Create a New Note
       </Typography>
       <Button
         type="submit"
+        color="secondary"
 
-        className={classes.btn1}
         variant="outlined"
         onClick={() => console.log("youi clicked me")}
 
         endIcon={<KeyboardArrowRightOutlinedIcon />}
 
-      >Submit {console.log(classes)}</Button>
+      >Submit </Button>
       <br />
 
 
