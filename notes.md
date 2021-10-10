@@ -16,3 +16,7 @@ then, create a theme variable const theme = createTheme({
 });
 
 After that, wrap the Router tags with ThemeProvider tags and set its theme attribute to {theme}
+
+<!--! ============================================================================================================== -->
+Lesson 7 Error for makeStyles
+textField is given className of classes object, yet the changes are not showing up. Only the height attribute is getting reflected. Please look into it
