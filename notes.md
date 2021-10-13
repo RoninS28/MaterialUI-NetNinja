@@ -20,3 +20,18 @@ After that, wrap the Router tags with ThemeProvider tags and set its theme attri
 <!--! ============================================================================================================== -->
 Lesson 7 Error for makeStyles
 textField is given className of classes object, yet the changes are not showing up. Only the height attribute is getting reflected. Please look into it
+
+<!--! ============================================================================================================== -->
+
+Lesson 9 Using JSON Server
+For installing the json server <!--? npm install -g json-server -->
+Now, we created a file of data called db.json and we link that file to the json server as follows
+<!--? npx json-server --watch public/data/db.json --port 8000 -->
+<!--! ============================================================================================================== -->
+
+Lesson 10 Grid System
+Grid system is by default of 12 units
+By default, grid items are aligned next to each other in a row rather than on top of one another
+<Grid container> </Grid>  so that the grid wrapper is formed
+<Grid item> </Grid> to tell that this is a grid item
+
