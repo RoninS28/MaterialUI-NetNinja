@@ -31,12 +31,15 @@ const usestyles = theme => ({
 
 const useStyles = makeStyles({
   field: {
-    // paddingTop: '20px',
-    padding: '100px',
-    // backgroundColor: 'red',
-    marginBottom: '100px',
-    // margin: 100
-    // display: 'block'
+    "&&": {
+      // paddingTop: '20px',
+      // padding: '100px',
+      // backgroundColor: 'red',
+      margin: '30px',
+      // margin: 100
+      // display: 'block'
+
+    }
   },
 
 });
@@ -46,7 +49,7 @@ export default function Create() {
   const classes = useStyles()
   const history = useHistory()
   const textfieldStyle = {
-    margin: '20px'
+    // margin: '20px'
   }
   const [title, setTitle] = useState('')
   const [details, setDetails] = useState('')
