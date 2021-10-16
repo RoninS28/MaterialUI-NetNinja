@@ -35,7 +35,7 @@ const useStyles = makeStyles({
       // paddingTop: '20px',
       // padding: '100px',
       // backgroundColor: 'red',
-      margin: '30px',
+      margin: '10px',
       // margin: 100
       // display: 'block'
 

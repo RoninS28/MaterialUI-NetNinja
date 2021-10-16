@@ -35,3 +35,13 @@ By default, grid items are aligned next to each other in a row rather than on to
 <Grid container> </Grid>  so that the grid wrapper is formed
 <Grid item> </Grid> to tell that this is a grid item
 
+<!--! ============================================================================================================== -->
+Lesson 13 Permanent Drawer
+We created a Layout function and wrapped it around the Switch tags in App.js, below the Router
+In the Layout function, we can access the children using {children} props and specify it in the esx
+For Drawer component, it has preqritten css,which we override using classes={{paper: {classes.drawerPaper}}}
+here, we override the paper property of the Drawer, which is prewritten by material ui
+
+<!--! ============================================================================================================== -->
+Lesson 14 Lists and List Items
+With the help of the useLocation from the react router, we can access the current path of the website using obj.pathname

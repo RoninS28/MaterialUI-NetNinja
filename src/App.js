@@ -3,6 +3,7 @@ import Notes from './pages/Notes'
 import Create from './pages/Create'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { pink, purple } from '@mui/material/colors';
+import Layout from './components/Layout';
 
 
 
@@ -28,14 +29,16 @@ function App() {
     <ThemeProvider theme={theme}>
 
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Notes />
-          </Route>
-          <Route path="/create">
-            <Create />
-          </Route>
-        </Switch>
+        <Layout>
+          <Switch>
+            <Route exact path="/">
+              <Notes />
+            </Route>
+            <Route path="/create">
+              <Create />
+            </Route>
+          </Switch>
+        </Layout>
       </Router>
     </ThemeProvider>
   );
